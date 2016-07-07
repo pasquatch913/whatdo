@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  .row
+    .col-xs-12
+      form(method='post' action='/result')
+        input(type='text' name='city')
+        select(class='form-control,block' name='radius')
+          option 1
+          option 2
+          option 3
+          option 4
+          option 5
+        
+        input(type='submit')
